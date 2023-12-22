@@ -38,3 +38,9 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 
 Media Query Reference :https://youtu.be/ng5t_R4zuSc?si=JRFAENMEvj2TAaJ8
 
+WINDOWS  view
+![Screenshot 2023-12-22 222643](https://github.com/Prem0302/Task---Card-3-/assets/121685154/b1635ed1-efbb-45e7-8d5a-787118e563c0)
+
+MOBILE VIEW
+![Screenshot 2023-12-22 222950](https://github.com/Prem0302/Task---Card-3-/assets/121685154/92aa066c-acc1-4fd4-8dc7-034a495681bb)
+
