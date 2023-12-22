@@ -1,0 +1,130 @@
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    justify-content: center;
+    display: flex;
+    padding: 190px 50px;
+
+}
+.row{
+    background-color: rgb(247, 248, 248);
+    display: flex;
+    height: 400px;
+   
+}
+.card1{
+    padding: 10px;
+    width: 300px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 2% 0 0 2%;
+ box-sizing: border-box;    
+}
+.card2 {
+    padding:10px;
+    width: 300px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(184, 100%, 22%);
+    box-sizing: border-box;    
+
+    
+}
+.card3{
+    padding:10px;
+    width: 300px;
+    padding: 10px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(179, 100%, 13%);
+    border-radius: 0 2% 2% 0;
+    box-sizing: border-box;    
+
+    
+}
+.h2{
+    color: hsl(0, 0%, 95%);
+    padding-left:15px ;
+    padding: 10px 25px;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+.h3{
+    color: hsl(0, 0%, 95%);
+    padding-left:15px ;
+    padding: 10px 25px;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+.h4{
+    color: hsl(0, 0%, 95%);
+    padding-left:15px ;
+    padding: 10px 25px;
+    font-family: 'Big Shoulders Display', sans-serif;
+
+    
+}
+.img1 ,.img3,.img2{
+    padding: 20px;
+}
+
+.p1,.p2,.p3{
+    padding: 20px;
+    text-align: justify;
+    align-items: flex-start;  
+    font-family: 'Lexend Deca', sans-serif;
+    color:hsla(0, 0%, 100%, 0.75);
+
+}
+.btn1{
+    padding: 15px 20px 10px;
+    border-radius:32px;
+    background-color: rgb(251, 252, 253);
+    color:hsl(31, 77%, 52%);
+    border-color: rgb(242, 243, 244);
+    display: flex;
+    margin-left: 70px ;
+    margin-bottom: 50px;
+    margin: 93.4px 50px 95px 100px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+.btn2{
+    padding: 15px 20px 10px;
+    border-radius:30px;
+    background-color: aliceblue;
+    color: hsl(184, 100%, 22%);;
+    border-color: aliceblue;
+    display: flex;
+    margin-left: 70px;
+    margin: 80px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+.btn3{
+    padding: 15px 20px 10px;
+    border-radius:30px;
+    background-color: aliceblue;
+    color:hsl(179, 100%, 13%);  
+    border-color: aliceblue;
+    display: flex;
+    margin-left: 70px ;
+    margin: 93.4px 50px 95px 100px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+@media screen and  (max-width: 1440px) {
+    .row{
+        flex-direction: column;
+    }
+}
+
